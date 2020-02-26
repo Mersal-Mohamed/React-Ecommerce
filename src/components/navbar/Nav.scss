@@ -1,0 +1,29 @@
+.nav{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    .left{
+        display: flex;
+        margin-left: 70px;
+        align-items: center;
+        ul{
+            margin-left: 100px;
+            li{
+                margin-right: 25px;
+                line-height: 23px;
+            }
+        }
+        .logo{
+            margin-top: 4px;
+        }
+    }
+    .right{
+        img{
+            transform: translateY(5px);
+        }
+        span{
+            line-height: 23px;
+            margin-left: 3px;
+        }
+    }
+}

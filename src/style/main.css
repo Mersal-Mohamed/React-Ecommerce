@@ -1,0 +1,23 @@
+/* أضف قواعد CSS هنا */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+.container{
+    width: 1170px;
+    padding-left:15px; 
+    padding-right:15px; 
+    margin-left: auto;
+    margin-right: auto;
+}

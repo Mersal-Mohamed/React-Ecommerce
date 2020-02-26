@@ -1,0 +1,35 @@
+.home{
+    .header{
+    display: flex;
+    .header-text{
+        align-self: center;
+        margin-left: -56px;
+
+        h1{
+            font-weight: 700;
+            font-size: 2.5rem;
+        }
+        p{
+            margin-top: 15px;
+            margin-bottom: 50px;
+            font-size: 15.5px;
+
+        }
+        button{
+            background-color: #242424;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+
+        }
+    }
+    .header-img{
+        margin-top: -55px;
+        z-index: -1;
+        img{
+            width: 85%;
+        }
+    }
+    }
+}
